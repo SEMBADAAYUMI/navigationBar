@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ecb390;
+}
+nav {
+  display: flex;
+  background-color: #94b49f;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+nav .logo {
+  font-family: "Splash", cursive;
+}
+
+section img {
+  position: absolute;
+  /* left: 50%; */
+  right: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #ffc4c4; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  border-radius: 125px 125px 0 0;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 20%;
+  margin-left: 500px;
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+  /* box-shadow: 0 2px 2px rgba(0, 0, 0, 1); */
+  padding: 0 10px;
+  font-family: "Gentium Book Plus", serif;
+}
+nav ul li a:hover {
+  color: yellow;
+}
+.result {
+  padding: 20px;
+}
+.satu {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+.satu h4 {
+  line-height: 2;
+}
